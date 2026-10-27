@@ -30,6 +30,5 @@ src/
 - **Favourites:** managed with `useReducer`, saved to localStorage, and loaded back on refresh.
 - **useCallback / useMemo:** `useCallback` keeps the search handler stable so the memoized search bar doesn't re-render needlessly; `useMemo` recalculates the filtered list only when the photos or search text change.
 
-## Design
-
-Inspired by wedding stationery: a blush-white paper background, Bodoni Moda italic for headings and names, Jost for body text, and photos styled as slightly tilted prints that straighten on hover. Colours, fonts and animations are defined as Tailwind theme tokens in `src/index.css`.
+#Design
+Since Celebrare is a company in the wedding business it must look very elegant and niche for that i have taken design inspiration from Awwwwards websites page and pinterest
